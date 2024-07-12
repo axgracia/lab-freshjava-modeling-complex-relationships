@@ -1,4 +1,4 @@
-package com.ironhacklab.Modeling.Relationships.model;
+package com.ironhacklab.Modeling.Relationships.repository;
 
 import com.ironhacklab.Modeling.Relationships.model.Chapter;
 import org.springframework.data.jpa.repository.JpaRepository;
