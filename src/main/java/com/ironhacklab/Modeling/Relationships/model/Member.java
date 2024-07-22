@@ -18,6 +18,9 @@ public class Member {
     @Temporal(TemporalType.DATE)
     private Date renewalDate;
 
+    public Member() {
+    }
+
     // Getters and setters
     public Long getId() {
         return id;
