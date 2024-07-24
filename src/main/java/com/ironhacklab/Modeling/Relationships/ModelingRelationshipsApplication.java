@@ -7,7 +7,6 @@ import com.ironhacklab.Modeling.Relationships.repository.ChapterRepository;
 import com.ironhacklab.Modeling.Relationships.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.text.SimpleDateFormat;
 import java.text.ParseException;
