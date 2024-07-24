@@ -24,14 +24,9 @@ public class ModelingRelationshipsApplication implements CommandLineRunner {
 	private MemberRepository memberRepository;
     private String renewalDate;
 
-	@Override
-	public void run(String... args) throws ParseException {
-		SimpleDateFormat sdf = new SimpleDateFormat("MM / dd / yyyy");
 
-		void main; (String[] args) -> {
-		SpringApplication.run(ModelingRelationshipsApplication.class, args);
-	}
 
+		@Override
         public void run(String... args) throws Exception {
 		// Create sample members
 		Member president1 = new Member();

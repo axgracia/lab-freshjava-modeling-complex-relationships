@@ -24,5 +24,9 @@ public class MemberService {
         return memberRepository.findAll();
     }
 
+    public Member findMemberById(Long id) {
+        return memberRepository.findById(id).orElse(null);
+    }
+
     // Additional methods to manipulate members
 }

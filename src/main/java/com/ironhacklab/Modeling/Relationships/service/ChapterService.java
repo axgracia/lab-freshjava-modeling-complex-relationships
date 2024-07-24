@@ -25,5 +25,11 @@ public class ChapterService {
         return chapterRepository.findAll();
     }
 
+    public Chapter findChapterById(Long id) {
+        return chapterRepository.findById(id).orElse(null);
+    }
+
     // Additional methods to manipulate chapters
 }
+
+
